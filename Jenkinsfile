@@ -1,7 +1,7 @@
 node{
     
     stage('Clone repo'){
-        git credentialsId: 'GIT-Credentials', url: 'https://github.com/bhanuitschool/maven-web-app.git'
+        git credentialsId: 'GIT-Credentials', url: 'https://github.com/bhanuprakash678910/mavenwebapp.git'
     }
     
     stage('Maven Build'){
